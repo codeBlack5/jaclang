@@ -71,3 +71,26 @@ Numbers with decimal points.
         }
     `
 4. True or False(Booleans):
+Only two values: `True` or `False`(notice the capital letters!)
+
+    `
+        with entry {
+            is_raining = True;
+            is_sunny = False;
+
+            print(is_raining);  # Shows: True
+        }
+
+# Type annotations
+You can tell Jac what type of data a variable should hold:
+    `
+        with entry {
+            name: str = "Steve";    # str means string(text)
+            age: int = 26;          # int means integer(whole number)
+            height: float = 5.6;    # float means decimal number
+            is_student: bool = True;    # bool means boolean(True/False)
+
+            print(f"{name} is {age} years old");
+        }
+Pro tip: the `f` before a string lets you insert variable using `{variable_name}`
+
