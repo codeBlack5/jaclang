@@ -57,3 +57,17 @@ Whole numbers with no decimal point.
 
             print(apples);  # Shows: 5
         }
+    `
+3. Numbers(Float):
+Numbers with decimal points.
+
+    `
+        with entry {
+            temperature = 72.5;
+            price = 19.99;
+            pi = 3.14159;
+
+            print(temperature);     # Shows: 72.5
+        }
+    `
+4. True or False(Booleans):
