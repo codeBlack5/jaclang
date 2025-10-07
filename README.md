@@ -32,3 +32,18 @@ Variable - A variable is like a labelled box where you store information. You gi
      }
     `
 Lines starting with `#` are comments.
+
+# Types of Data
+1. Text(Strings):
+Strings go inside quotes: `"Like this"` or `'Like this'`.
+    
+    `
+        with entry{
+            greeting = "Hello";
+            name = "Steve";
+            message = "Welcome to Jac!"
+
+            print(greeting),    # Shows: Hello
+        }
+    `
+2. 
