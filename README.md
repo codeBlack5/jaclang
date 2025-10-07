@@ -46,4 +46,14 @@ Strings go inside quotes: `"Like this"` or `'Like this'`.
             print(greeting),    # Shows: Hello
         }
     `
-2. 
+2. Numbers(Integers):
+Whole numbers with no decimal point.
+
+    `
+        with entry {
+            apples = 5;
+            students = 30;
+            year = 2024;
+
+            print(apples);  # Shows: 5
+        }
