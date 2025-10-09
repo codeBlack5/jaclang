@@ -1,5 +1,5 @@
 """A Number Guessing Game"""
-import random;
+# import random;
 
 class Game {
     def init(self: Game, attempts: int = 10){
