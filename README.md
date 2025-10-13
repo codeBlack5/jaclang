@@ -137,3 +137,17 @@ Variables can change their value:
             print(score);    # Shows: 20
         }
 Common shortcuts: `x += 5` means `x = x + 5` (add 5)
+
+## Making Decisions: Control Flow
+Programs need to make decisions based on conditions. This is where `if`,`elif`, and `else` come in.
+
+# The If Statement
+    `
+        with entry {
+            age = 18;
+            if age >= 18 {
+                print("You are an adult")
+            }
+        }
+    `
+How it works: `if age >= 18` - check if age is greater than or equal to 18. If the condition is `True`, run the code inside `{}`, if the condition is `False`, skip the code inside `{}`.
