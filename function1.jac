@@ -1,5 +1,5 @@
 # Create your first function
-can greet(name: str) {
+can greet(name: str)  {     # name: str - This is a parameter(input)
     print(f"Hello, {name}!");
 }
 
